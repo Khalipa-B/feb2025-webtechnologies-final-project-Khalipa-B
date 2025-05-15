@@ -20,7 +20,6 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <!-- Logo -->
           <a class="navbar-brand" href="index.html">
             <img
               src="images/_k^t  Logo_white.png"
@@ -28,8 +27,6 @@
               width="130"
             />
           </a>
-
-          <!-- Hamburger Menu Button -->
           <button
             class="navbar-toggler"
             type="button"
@@ -41,10 +38,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <!-- Collapsible Navbar -->
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
@@ -58,37 +53,6 @@
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
-
-            <!-- Search Form -->
-            <form
-              class="d-flex search-form me-3"
-              onsubmit="searchProducts(event)"
-            >
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search products..."
-                aria-label="Search"
-                id="search-input"
-              />
-              <button class="btn btn-outline-light" type="submit">
-                <i class="fas fa-search"></i>
-              </button>
-            </form>
-
-            <!-- Cart Icon -->
-            <a
-              href="javascript:void(0);"
-              class="btn btn-outline-light position-relative cart-btn"
-              onclick="toggleCart()"
-            >
-              <i class="fas fa-shopping-cart"></i>
-              <span
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count"
-              >
-                0
-              </span>
-            </a>
           </div>
         </div>
       </nav>
