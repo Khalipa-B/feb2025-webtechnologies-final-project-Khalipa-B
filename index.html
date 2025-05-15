@@ -18,27 +18,44 @@
   </head>
   <body>
     <header>
-      <div class="nav-container">
-        <a href="index.html" class="logo">
-          <img src="images/_k^t  Logo_white.png" alt="/k^t/ logo" />
-        </a>
-
-        <div class="hamburger-menu">
-          <div><a href="index.html">Home</a></div>
-          <div><a href="shop.html">Shop</a></div>
-          <div><a href="about.html">About</a></div>
-          <div><a href="contact.html">Contact</a></div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/_k^t  Logo_white.png"
+              alt="/k^t/ logo"
+              width="130"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <nav>
-          <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      </nav>
     </header>
 
     <!-- Hero Section -->
@@ -153,4 +170,3 @@
     </div>
   </body>
 </html>
-```
