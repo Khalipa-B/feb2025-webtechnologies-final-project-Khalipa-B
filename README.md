@@ -9,7 +9,7 @@ Welcome to the **k^t E-commerce Website**! This project is designed to provide a
 The project is organized as follows:
 
 ```
-feb-2025-final-project-and-deployment-Khalipa-B
+feb2025-webtechnologies-final-project-Khalipa-B
 ├── styles.css                 # Styles for the website
 ├── script.js                  # Main JavaScript functionality
 ├── images
@@ -42,7 +42,7 @@ feb-2025-final-project-and-deployment-Khalipa-B
    ```
 2. Navigate to the project directory:
    ```bash
-   cd feb-2025-final-project-and-deployment-Khalipa-B
+   cd feb2025-webtechnologies-final-project-Khalipa-B
    ```
 3. Open the `index.html` file in your browser to view the website.
 
