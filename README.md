@@ -57,6 +57,4 @@ feb-2025-final-project-and-deployment-Khalipa-B
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
