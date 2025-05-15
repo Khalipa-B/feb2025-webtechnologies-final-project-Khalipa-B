@@ -56,5 +56,6 @@ feb-2025-final-project-and-deployment-Khalipa-B
 - Use the contact page to reach out for any inquiries.
 
 ---
+This website is hosted on Netlify: https://ecommerce-website-ktabove.netlify.app/
 
 
